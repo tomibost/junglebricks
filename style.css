@@ -1,0 +1,86 @@
+body{
+    background-image: url(slike/ozadje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+#batwon{
+    height: 100px;
+    margin: 0 auto;
+	text-align: center;
+}
+#vse{
+	background-image: url(slike/ozadje.png);
+	background-size: cover;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+
+h1 {
+    font-size: 70px; /* Increase font size */
+    color: rgb(72, 227, 6); /* Set text color to white */
+    text-shadow: 10px 2px 4px rgb(0, 0, 0); /* Add shadow */
+    font-weight: bold; /* Make the font bold */
+    padding: 10px; /* Add padding */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center; /* Center align text */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Forest Regular', sans-serif;
+  }
+
+#canvas{
+    border: 4px solid black;
+    background-color: rgba(232, 231, 231, 0.397);
+	opacity: 0.9;
+    background-size: 106%;
+    
+}
+#canvas1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#batwon{
+    height: 100px;
+    margin: 0 auto;
+	text-align: center;
+}
+
+button {
+    height: 45px;
+    width: 150px; 
+    margin: auto;
+    color: white; 
+    background-color: #4CAF50; 
+    border: 2px solid #2E7D32; 
+    border-radius: 8px; 
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker jungle green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:active {
+    background-color: #2E7D32; /* Even darker on click */
+    transform: scale(0.98); /* Slightly shrink on click */
+}
+
+#play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+}
